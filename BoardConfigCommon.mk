@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2020 The LineageOS Project
+# Copyright (C) 2020 Paranoid Android
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -29,6 +29,7 @@ BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sm6150
 TARGET_NO_BOOTLOADER := true
+MSMSTEPPE := sm6150
 
 # Android Verified Boot
 BOARD_AVB_ENABLE := true
